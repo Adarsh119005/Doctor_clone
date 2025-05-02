@@ -91,30 +91,31 @@ npm install
 ```bash
 git clone https://github.com/your-username/doctor-app.git
 cd doctor-app
+```
 
 
-Create a .env file:
-
+### Create a .env file:
+```bash
 MONGODB_URI=mongodb://localhost:27017/doctors
 PORT=5000
-
+```
 Run backend:
-
+```bash
 npm start
-
-💻 Frontend Setup
-
+```
+### 💻 Frontend Setup
+```bash
 cd frontend
 npm install
 npm run dev
+```
+## App will run at http://localhost:3000.
+## 📡 API Documentation
+## ➕ Add Doctor - POST /api/add-doctor
 
-App will run at http://localhost:3000.
-📡 API Documentation
-➕ Add Doctor - POST /api/add-doctor
-
-Add a new doctor to the database.
-Body Parameters
-
+## Add a new doctor to the database.
+## Body Parameters
+```bash
 {
   "name": "Dr. Jane Doe",
   "specialization": "General Physician",
@@ -125,15 +126,15 @@ Body Parameters
   "rating": 4.5,
   "image": "https://example.com/image.jpg"
 }
-
+```
 Response
-
+```bash
 {
   "message": "Doctor added successfully",
   "doctor": { ... }
 }
-
-📋 List Doctors - GET /api/doctors
+```
+### 📋 List Doctors - GET /api/doctors
 
 List all doctors based on filters.
 Query Parameters (optional):
@@ -160,7 +161,7 @@ Response:
 ]
 
 
-💡 Improvements (Future Roadmap)
+### 💡 Improvements (Future Roadmap)
 
 Full doctor profile page with reviews
 
@@ -176,13 +177,13 @@ Dark mode support
 
     Pagination and search bar
 
-🧑‍💻 Developer
+#  🧑‍💻 Developer
 
-Adarsh Upadhyay
+## Adarsh Upadhyay
 
-    🌐 Portfolio
+    🌐 Portfolio[https://adarsh119005.github.io/webpage/]
 
-    💼 LinkedIn
+    💼 LinkedIn[https://www.linkedin.com/in/adarsh-upadhayay-65111830b/]
 
     📧 aa7905137620@gmail.com
 
